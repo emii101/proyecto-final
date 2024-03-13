@@ -379,6 +379,59 @@ a {
     margin-top: 20px;
 }
 
+/* Trabajá con nosotros */
+
+.tbjNosotros {
+    background-image: url("../assets/img/fondos/tbjNosotros.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mainTbjNosotros section article {
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background-color: rgb(0, 0, 0, 0.6);
+    margin-top: 100px;
+}
+
+.mainTbjNosotros section article img {
+    width: 50%;
+    height: 100%;
+}
+
+.mainTbjNosotros section article h1 {
+    color: white;
+    text-shadow: 1px 1px 4px orange;
+    text-align: left;
+    text-decoration: underline;
+    font-family: "Outfit", sans-serif;
+    font-size: 96px;
+    padding-left: 240px;
+    padding-top: 100px;
+}
+
+.mainTbjNosotros div {
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.mainTbjNosotros div p {
+    color: white;
+    text-shadow: 1px 1px 4px orange;
+    font-size: 48px;
+    margin-top: 60px;
+}
+
+.mainTbjNosotros div h3 {
+    color: #f1d69a;
+    font-size: 80px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
 @media (max-width:1024px) {
 
     /* Productos */
