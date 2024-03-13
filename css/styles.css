@@ -1,0 +1,639 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header y footer */
+
+.barraNavegacion {
+    text-shadow: 1px 1px 4px black;
+    text-decoration: none;
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+}
+
+.barraNavegacion nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2.5rem;
+    list-style: none;
+    margin: 30px;
+    flex-wrap: wrap;
+}
+
+.piePagina {
+    width: 100%;
+    height: 250px;
+    text-shadow: 1px 1px 4px black;
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+}
+
+.piePagina div ul {
+    color: rgba(255, 255, 255, 0.678);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3.75rem;
+    list-style: none;
+    padding-top: 10px;
+    flex-wrap: wrap;
+}
+
+.iconos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 11.25rem;
+    padding-top: 50px;
+
+}
+
+.iconos img {
+    width: 30px;
+    height: 30px;
+}
+
+.piePagina div h3 {
+    color: #f1d69a;
+    text-shadow: 1px 1px 4px black;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #f1d69a;
+}
+
+/* Inicio */
+
+.inicio {
+    background-image: url("../assets/img/fondos/inicio.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.inicioTitulo div h1 {
+    color: white;
+    text-shadow: 1px 1px 4px orange;
+    text-align: center;
+    font-family: "UnifrakturMaguntia", cursive;
+    font-size: 128px;
+    font-weight: lighter;
+    margin-top: 140px;
+}
+
+.inicioTitulo div h2 {
+    color: #f1d69a;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 80px;
+    margin: 20px;
+}
+
+.inicioTitulo div h4 {
+    color: white;
+    text-shadow: 1px 1px 4px orange;
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Outfit", sans-serif;
+    font-size: 32px;
+    padding-top: 10px;
+    margin-bottom: 170px;
+}
+
+/* Servicios */
+
+.servicios {
+    background-image: url("../assets/img/fondos/servicioss.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.serviciosTitulo {
+    color: white;
+    text-shadow: 1px 1px 4px orange;
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Outfit", sans-serif;
+    font-size: 96px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.sectionServicios {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.serviciosUno p {
+    color: rgba(255, 255, 255, 0.541);
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+}
+
+.serviciosUno h4 {
+    color: #f1d69a;
+    font-family: "Outfit", sans-serif;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.serviciosUno img {
+    width: 18.75rem;
+    height: 15.625rem;
+    border: 10px solid white;
+    border-radius: 50%;
+}
+
+.serviciosDos p {
+    color: rgba(255, 255, 255, 0.541);
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+}
+
+.serviciosDos h4 {
+    color: #f1d69a;
+    font-family: "Outfit", sans-serif;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.serviciosDos img {
+    width: 18.75rem;
+    height: 15.625rem;
+    border: 10px solid white;
+    border-radius: 50%;
+}
+
+.serviciosTres p {
+    color: rgba(255, 255, 255, 0.541);
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+}
+
+.serviciosTres h4 {
+    color: #f1d69a;
+    font-family: "Outfit", sans-serif;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.serviciosTres img {
+    width: 18.75rem;
+    height: 15.625rem;
+    border: 10px solid white;
+    border-radius: 50%;
+}
+
+/* Nosotros */
+
+.nosotros {
+    background-image: url("../assets/img/fondos/nosotros.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mainNosotros div h1 {
+    color: white;
+    text-shadow: 1px 1px 4px orange;
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Outfit", sans-serif;
+    font-size: 96px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.imgNosotros img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid white;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.mainNosotros div p {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 4px orange;
+    font-family: "Outfit", sans-serif;
+    font-size: 26px;
+    margin-bottom: 40px;
+}
+
+/* Ubicación */
+
+.ubicacionFondo {
+    background-image: url("../assets/img/fondos/ubicacion.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ubicacion div h1 {
+    color: white;
+    text-shadow: 1px 1px 4px orange;
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Outfit", sans-serif;
+    font-size: 96px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.ubicacion div iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+
+.descUbicacion {
+    color: white;
+    text-shadow: 1px 1px 4px orange;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 26px;
+    margin-bottom: 40px;
+}
+
+/* Diseños */
+
+.diseñosFondo {
+    background-image: url("../assets/img/fondos/diseñoss.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.diseños div h1 {
+    color: white;
+    text-shadow: 1px 1px 4px orange;
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Outfit", sans-serif;
+    font-size: 96px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.diseños section {
+    color: #f1d69a;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Outfit", sans-serif;
+    font-size: 24px;
+}
+
+.diseños section article {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+/* Productos */
+
+.fondoProductos {
+    background-image: url("../assets/img/fondos/productos.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mainProductos div h1 {
+    color: white;
+    text-shadow: 1px 1px 4px orange;
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Outfit", sans-serif;
+    font-size: 96px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.productos h4 {
+    color: #f1d69a;
+    font-family: "Outfit", sans-serif;
+    font-size: 24px;
+    padding-left: 270px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.articleProd {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.articleProd article {
+    width: 300px;
+    height: 450px;
+    border-radius: 20px;
+    background-color: white;
+    font-family: "Outfit", sans-serif;
+}
+
+.productos div article img {
+    width: 100%;
+    height: 50%;
+    margin-top: 20px;
+}
+
+.nombreProd {
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 70px;
+}
+
+.precio {
+    color: #f1d69a;
+    text-align: center;
+    text-shadow: 1px 1px 4px black;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+@media (max-width:1024px) {
+
+    /* Productos */
+    .productos h4 {
+        padding-left: 80px;
+    }
+}
+
+@media (max-width:768px) {
+
+    /* Inicio */
+    .inicioTitulo div h1 {
+        font-size: 110px;
+    }
+
+    .inicioTitulo div h2 {
+        font-size: 60px;
+    }
+
+    .inicioTitulo div h4 {
+        font-size: 24px;
+    }
+
+    /* Nosotros*/
+    .mainNosotros div p {
+        font-size: 20px;
+    }
+
+    /* Diseños */
+    .diseños section article {
+        gap: 80px;
+    }
+
+    /* Productos */
+    .articleProd article {
+        width: 200px;
+        height: 350px;
+    }
+
+    .nombreProd {
+        font-size: 12px;
+    }
+
+    .precio {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:425px) {
+
+    /* header y footer */
+    .barraNavegacion {
+        font-size: 15px;
+    }
+
+    .piePagina {
+        height: 200px;
+        font-size: 15px;
+    }
+
+    .piePagina div ul {
+        gap: 1.25rem;
+    }
+
+    .iconos {
+        gap: 6.25rem;
+    }
+
+    /* Inicio */
+
+    .inicioTitulo div h1 {
+        font-size: 90px;
+    }
+
+    .inicioTitulo div h2 {
+        font-size: 50px;
+    }
+
+    .inicioTitulo div h4 {
+        font-size: 20px;
+    }
+
+    /* Servicios */
+
+    .serviciosTitulo {
+        font-size: 60px;
+    }
+
+    .sectionServicios {
+        gap: 40px;
+    }
+
+    /* Nosotros */
+
+    .mainNosotros div h1 {
+        font-size: 60px;
+    }
+
+    /* Ubicacion */
+
+    .ubicacion div h1 {
+        font-size: 60px;
+    }
+
+    .descUbicacion {
+        font-size: 20px;
+    }
+
+    /* Diseños */
+
+    .diseños div h1 {
+        font-size: 60px;
+    }
+
+    .diseños section article div p {
+        margin-top: 10px;
+    }
+
+    .diseños section article div img {
+        width: 80%;
+    }
+
+    /* Productos */
+
+    .mainProductos div h1 {
+        font-size: 60px;
+    }
+
+    .productos h4 {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .articleProd {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    .articleProd article {
+        width: 200px;
+        height: 350px;
+    }
+
+    .nombreProd {
+        font-size: 12px;
+    }
+
+    .precio {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:375px) {
+    /* Nosotros */
+
+    .imgNosotros img {
+        width: 80%;
+    }
+
+    /* Ubicacion */
+
+    .ubicacion div iframe {
+        width: 80%;
+    }
+
+    /* Diseños */
+
+    .diseños section {
+        font-size: 18px;
+    }
+
+    /* Productos */
+
+    .mainProductos div h1 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width:320px) {
+    /* header y footer */
+
+    .barraNavegacion {
+        font-size: 12px;
+    }
+
+    .piePagina {
+        height: 200px;
+        font-size: 12px;
+    }
+
+    .piePagina div ul {
+        gap: 1.25rem;
+    }
+
+    .iconos {
+        gap: 5rem;
+    }
+
+    /* Inicio */
+
+    .inicioTitulo div h1 {
+        font-size: 70px;
+    }
+
+    .inicioTitulo div h2 {
+        font-size: 40px;
+    }
+
+    .inicioTitulo div h4 {
+        font-size: 15px;
+    }
+
+    /* Servicios */
+
+    .serviciosTitulo {
+        font-size: 40px;
+    }
+
+    .serviciosUno div img {
+        width: 80%;
+    }
+
+    .serviciosDos div img {
+        width: 16.25rem;
+    }
+
+    .serviciosTres div img {
+        width: 80%;
+    }
+
+    /* Nosotros */
+
+    .mainNosotros div h1 {
+        font-size: 40px;
+    }
+
+    .mainNosotros div p {
+        font-size: 16px;
+    }
+
+    /* Ubicacion */
+
+    .ubicacion div h1 {
+        font-size: 40px;
+    }
+
+    /* Diseños */
+
+    .diseños div h1 {
+        font-size: 40px;
+    }
+
+    /* Productos */
+
+    .mainProductos div h1 {
+        font-size: 40px;
+    }
+}
