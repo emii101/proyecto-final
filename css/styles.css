@@ -408,8 +408,8 @@ a {
     text-decoration: underline;
     font-family: "Outfit", sans-serif;
     font-size: 96px;
-    padding-left: 240px;
-    padding-top: 100px;
+    margin: auto;
+    align-self: center;
 }
 
 .mainTbjNosotros div {
@@ -432,12 +432,31 @@ a {
     margin-bottom: 40px;
 }
 
+
 @media (max-width:1024px) {
+
+    /* header */
+
+    .barraNavegacion nav ul {
+        gap: 2.5rem;
+    }
 
     /* Productos */
     .productos h4 {
         padding-left: 80px;
     }
+
+    /* Trabajá con nosotros */
+
+    .mainTbjNosotros section article {
+        height: 400px;
+    }
+
+    .mainTbjNosotros section article h1 {
+        font-size: 70px;
+    }
+
+
 }
 
 @media (max-width:768px) {
@@ -477,6 +496,24 @@ a {
 
     .precio {
         font-size: 18px;
+    }
+
+    /* Trabajá con nosotros */
+
+    .mainTbjNosotros section article {
+        height: 300px;
+    }
+
+    .mainTbjNosotros section article h1 {
+        font-size: 50px;
+    }
+
+    .mainTbjNosotros div p {
+        font-size: 34px;
+    }
+
+    .mainTbjNosotros div h3 {
+        font-size: 48px;
     }
 }
 
@@ -582,6 +619,24 @@ a {
     .precio {
         font-size: 18px;
     }
+
+    /* Trabajá con nosotros */
+
+    .mainTbjNosotros section article {
+        height: 200px;
+    }
+
+    .mainTbjNosotros section article h1 {
+        font-size: 30px;
+    }
+
+    .mainTbjNosotros div p {
+        font-size: 28px;
+    }
+
+    .mainTbjNosotros div h3 {
+        font-size: 34px;
+    }
 }
 
 @media (max-width:375px) {
@@ -607,6 +662,24 @@ a {
 
     .mainProductos div h1 {
         font-size: 50px;
+    }
+
+    /* Trabajá con nosotros */
+
+    .mainTbjNosotros section article {
+        height: 180px;
+    }
+
+    .mainTbjNosotros section article h1 {
+        font-size: 25px;
+    }
+
+    .mainTbjNosotros div p {
+        font-size: 24px;
+    }
+
+    .mainTbjNosotros div h3 {
+        font-size: 30px;
     }
 }
 
@@ -688,5 +761,23 @@ a {
 
     .mainProductos div h1 {
         font-size: 40px;
+    }
+
+    /* Trabajá con nosotros */
+
+    .mainTbjNosotros section article {
+        height: 160px;
+    }
+
+    .mainTbjNosotros section article h1 {
+        font-size: 20px;
+    }
+
+    .mainTbjNosotros div p {
+        font-size: 20px;
+    }
+
+    .mainTbjNosotros div h3 {
+        font-size: 24px;
     }
 }
