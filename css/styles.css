@@ -26,6 +26,14 @@
     flex-wrap: wrap;
 }
 
+.barraNavegacion nav ul li {
+    transition: transform 0.3s ease;
+}
+
+.barraNavegacion nav ul li:hover {
+    transform: scale(1.2);
+}
+
 .piePagina {
     width: 100%;
     height: 250px;
@@ -141,61 +149,21 @@ a {
     flex-wrap: wrap;
 }
 
-.serviciosUno p {
+.sectionServicios article p {
     color: rgba(255, 255, 255, 0.541);
     font-family: "Outfit", sans-serif;
     font-size: 18px;
 }
 
-.serviciosUno h4 {
+.sectionServicios article h4 {
     color: #f1d69a;
     font-family: "Outfit", sans-serif;
     font-size: 24px;
     margin-top: 20px;
 }
 
-.serviciosUno img {
-    width: 18.75rem;
-    height: 15.625rem;
-    border: 10px solid white;
-    border-radius: 50%;
-}
-
-.serviciosDos p {
-    color: rgba(255, 255, 255, 0.541);
-    font-family: "Outfit", sans-serif;
-    font-size: 18px;
-}
-
-.serviciosDos h4 {
-    color: #f1d69a;
-    font-family: "Outfit", sans-serif;
-    font-size: 24px;
-    margin-top: 20px;
-}
-
-.serviciosDos img {
-    width: 18.75rem;
-    height: 15.625rem;
-    border: 10px solid white;
-    border-radius: 50%;
-}
-
-.serviciosTres p {
-    color: rgba(255, 255, 255, 0.541);
-    font-family: "Outfit", sans-serif;
-    font-size: 18px;
-}
-
-.serviciosTres h4 {
-    color: #f1d69a;
-    font-family: "Outfit", sans-serif;
-    font-size: 24px;
-    margin-top: 20px;
-}
-
-.serviciosTres img {
-    width: 18.75rem;
+.sectionServicios article img {
+    width: 100%;
     height: 15.625rem;
     border: 10px solid white;
     border-radius: 50%;
@@ -355,6 +323,11 @@ a {
     border-radius: 20px;
     background-color: white;
     font-family: "Outfit", sans-serif;
+    transition: transform 0.3s ease;
+}
+
+.articleProd article:hover {
+    transform: scale(1.1);
 }
 
 .productos div article img {
@@ -721,18 +694,6 @@ a {
 
     .serviciosTitulo {
         font-size: 40px;
-    }
-
-    .serviciosUno div img {
-        width: 80%;
-    }
-
-    .serviciosDos div img {
-        width: 16.25rem;
-    }
-
-    .serviciosTres div img {
-        width: 80%;
     }
 
     /* Nosotros */
