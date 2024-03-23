@@ -266,20 +266,165 @@ a {
     margin-bottom: 80px;
 }
 
-.diseños section {
-    color: #f1d69a;
-    text-align: center;
-    font-weight: bold;
-    font-family: "Outfit", sans-serif;
-    font-size: 24px;
+.diseños section article {
+    display: grid;
+    width: 90%;
+    height: 1600px;
+    row-gap: 30px;
+    column-gap: 500px;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+        "corte1 corte2"
+        "corte3 corte4"
+        "corte5 corte6"
+    ;
 }
 
-.diseños section article {
-    display: flex;
-    justify-content: space-around;
-    padding: 25px;
-    margin-bottom: 40px;
-    flex-wrap: wrap;
+.corte1 {
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/img/diseños/corte1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-area: corte1;
+    justify-self: center;
+    align-self: center;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+
+.corte1 h3 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Outfit", sans-serif;
+    color: #f1d69a;
+    font-size: 22px;
+    margin-top: 450px;
+    text-shadow: 1px 1px 4px black;
+}
+
+.corte2 {
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/img/diseños/corte2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-area: corte2;
+    justify-self: center;
+    align-self: center;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+
+.corte2 h3 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Outfit", sans-serif;
+    color: #f1d69a;
+    font-size: 22px;
+    margin-top: 450px;
+    text-shadow: 1px 1px 4px black;
+}
+
+.corte3 {
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/img/diseños/corte3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-area: corte3;
+    justify-self: center;
+    align-self: center;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+
+.corte3 h3 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Outfit", sans-serif;
+    color: #f1d69a;
+    font-size: 22px;
+    margin-top: 450px;
+    text-shadow: 1px 1px 4px black;
+}
+
+.corte4 {
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/img/diseños/corte4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-area: corte4;
+    justify-self: center;
+    align-self: center;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+
+.corte4 h3 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Outfit", sans-serif;
+    color: #f1d69a;
+    font-size: 22px;
+    margin-top: 450px;
+    text-shadow: 1px 1px 4px black;
+}
+
+.corte5 {
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/img/diseños/corte5.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-area: corte5;
+    justify-self: center;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+
+.corte5 h3 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Outfit", sans-serif;
+    color: #f1d69a;
+    font-size: 22px;
+    margin-top: 450px;
+    text-shadow: 1px 1px 4px black;
+}
+
+.corte6 {
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/img/diseños/corte6.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-area: corte6;
+    justify-self: center;
+    align-self: center;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+
+.corte6 h3 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Outfit", sans-serif;
+    color: #f1d69a;
+    font-size: 22px;
+    margin-top: 450px;
+    text-shadow: 1px 1px 4px black;
 }
 
 /* Productos */
@@ -429,6 +574,11 @@ a {
         font-size: 70px;
     }
 
+    /* Diseños */
+    .diseños section article {
+        column-gap: 150px;
+    }
+
 
 }
 
@@ -453,8 +603,40 @@ a {
     }
 
     /* Diseños */
+
     .diseños section article {
-        gap: 80px;
+        height: 1000px;
+        column-gap: 90px;
+    }
+
+    .corte1 h3 {
+        margin-top: 250px;
+        font-size: 16px;
+    }
+
+    .corte2 h3 {
+        margin-top: 250px;
+        font-size: 16px;
+    }
+
+    .corte3 h3 {
+        margin-top: 250px;
+        font-size: 16px;
+    }
+
+    .corte4 h3 {
+        margin-top: 250px;
+        font-size: 16px;
+    }
+
+    .corte5 h3 {
+        margin-top: 250px;
+        font-size: 16px;
+    }
+
+    .corte6 h3 {
+        margin-top: 250px;
+        font-size: 16px;
     }
 
     /* Productos */
@@ -554,14 +736,69 @@ a {
 
     .diseños div h1 {
         font-size: 60px;
+        margin-bottom: 40px;
     }
 
-    .diseños section article div p {
-        margin-top: 10px;
+    .diseños section article {
+        height: 800px;
+        column-gap: 20px;
     }
 
-    .diseños section article div img {
-        width: 80%;
+    .corte1 {
+        height: 80%;
+        margin-top: auto;
+    }
+
+    .corte1 h3 {
+        font-size: 14px;
+        margin-top: 150px;
+    }
+
+    .corte2 {
+        height: 80%;
+        margin-top: auto;
+    }
+
+    .corte2 h3 {
+        font-size: 14px;
+        margin-top: 150px;
+    }
+
+    .corte3 {
+        height: 80%;
+    }
+
+    .corte3 h3 {
+        font-size: 14px;
+        margin-top: 150px;
+    }
+
+    .corte4 {
+        height: 80%;
+    }
+
+    .corte4 h3 {
+        font-size: 14px;
+        margin-top: 150px;
+    }
+
+    .corte5 {
+        height: 80%;
+    }
+
+    .corte5 h3 {
+        font-size: 14px;
+        margin-top: 150px;
+    }
+
+    .corte6 {
+        height: 80%;
+        margin-bottom: auto;
+    }
+
+    .corte6 h3 {
+        font-size: 14px;
+        margin-top: 150px;
     }
 
     /* Productos */
@@ -627,8 +864,28 @@ a {
 
     /* Diseños */
 
-    .diseños section {
-        font-size: 18px;
+    .corte1 h3 {
+        font-size: 13px;
+    }
+
+    .corte2 h3 {
+        font-size: 13px;
+    }
+
+    .corte3 h3 {
+        font-size: 13px;
+    }
+
+    .corte4 h3 {
+        font-size: 13px;
+    }
+
+    .corte5 h3 {
+        font-size: 13px;
+    }
+
+    .corte6 h3 {
+        font-size: 13px;
     }
 
     /* Productos */
@@ -716,6 +973,10 @@ a {
 
     .diseños div h1 {
         font-size: 40px;
+    }
+
+    .diseños section article {
+        height: 600px;
     }
 
     /* Productos */
